@@ -2,3 +2,15 @@
 .venv/
 __pycache__/
 *.py[cod]
+
+# Keep account settings and operational exports local
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.xls
+*.xlsx
+*.pdf
+rota_*.html
